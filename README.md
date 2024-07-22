@@ -146,3 +146,6 @@ Django Peng - pjt73651@email.com
 
 项目链接: https://github.com/DjangoPeng/openai-quickstart
 
+
+
+Day1: https://yiyan.baidu.com/share/PeAKekC6KB 文心一言
