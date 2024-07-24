@@ -5,7 +5,7 @@ from utils import LOG
 from langchain_core.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, SystemMessagePromptTemplate
 
 class TranslationChain:
-    def __init__(self, model_name: str = "gpt-3.5-turbo", verbose: bool = True):
+    def __init__(self, model_name: str = "gpt-3.5-turbo", verbose: bool = True, base_url: str = None, api_key: str = None):
         
         # 翻译任务指令始终由 System 角色承担
         template = (
@@ -24,7 +24,7 @@ class TranslationChain:
         )
 
         # 为了翻译结果的稳定性，将 temperature 设置为 0
-        chat = ChatOpenAI(model_name=model_name, temperature=0, verbose=verbose)
+        chat = ChatOpenAI(model_name=model_name, temperature=0, verbose=verbose, openai_api_base=base_url, openai_api_key=api_key)
 
         self.chain = LLMChain(llm=chat, prompt=chat_prompt_template, verbose=verbose)
 

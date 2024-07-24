@@ -1,19 +1,18 @@
-测试数据
-这个数据集包含了由OpenAI的AI语言模型ChatGPT提供的两个测试样本。
-这些样本包括一个Markdown表格和一个英文文本段落，可以用来测试支持文本和表格格式的英译中翻译软件。
-文本测试
-快速的棕色狐狸跳过懒狗。这个句子包含了英语字母表中的每个字母至少一次。句子是经常用来测试字体、键盘和其他与文本相关的工具的。除了英语，其他许多语言也有句子。由于语言的独特特点，有些句子更难构造。
+Dữ liệu thử nghiệm
+Tập dữ liệu này chứa hai mẫu thử nghiệm được cung cấp bởi ChatGPT, một mô hình ngôn ngữ AI của OpenAI.
+Các mẫu này bao gồm một bảng markdown và một đoạn văn tiếng Anh, có thể được sử dụng để thử nghiệm phần mềm dịch tiếng Anh sang tiếng Trung hỗ trợ cả định dạng văn bản và bảng biểu.
+Thử nghiệm văn bản
+Con cáo nâu nhanh nhẹn nhảy qua con chó lười. Câu pangram này chứa mọi chữ cái trong bảng chữ cái tiếng Anh ít nhất một lần. Các câu pangram thường được sử dụng để thử nghiệm các loại phông chữ, bàn phím và các công cụ liên quan đến văn bản khác. Ngoài tiếng Anh, còn có các câu pangram trong nhiều ngôn ngữ khác. Một số câu pangram khó hơn để xây dựng do những đặc điểm độc đáo của ngôn ngữ.
+Thử nghiệm bảng
 
-| 水果 | 颜色 | 价格（美元） |
+| Fruit | Color | Price (USD) |
 | --- | --- | --- |
-| 苹果 | 红色 | 1.2 |
-| 香蕉 | 黄色 | 0.5 |
-| 橙子 | 橙色 | 0.8 |
-| 草莓 | 红色 | 2.5 |
-| 蓝莓 | 蓝色 | 3.0 |
-| 猕猴桃 | 绿色 | 1.0 |
-| 芒果 | 橙色 | 1.5 |
-| 葡萄 | 紫色 | 2.00 |
-
----
+| Táo | Đỏ | 1.2 |
+| Chuối | Vàng | 0.5 |
+| Cam | Cam | 0.8 |
+| Dâu tây | Đỏ | 2.5 |
+| Việt quất | Xanh | 3.0 |
+| Kiwi | Xanh | 1.0 |
+| Xoài | Cam | 1.5 |
+| Nho | Tím | 2.00 |
 
