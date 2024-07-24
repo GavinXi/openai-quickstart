@@ -18,7 +18,7 @@ class Logger:
         level = "DEBUG" if debug else "INFO"
         logger.add(sys.stdout, level=level)
         # Add file handler with a specific log level and timed rotation
-        logger.add(log_file_path, rotation=ROTATION_TIME, level="DEBUG")
+        logger.add(log_file_path, rotation=ROTATION_TIME, level="DEBUG",encoding="utf-8")
         self.logger = logger
 
 LOG = Logger(debug=True).logger
