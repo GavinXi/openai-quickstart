@@ -148,4 +148,16 @@ Django Peng - pjt73651@email.com
 
 
 
-Day1: https://yiyan.baidu.com/share/PeAKekC6KB 文心一言
+Day1: 
+    https://yiyan.baidu.com/share/PeAKekC6KB 文心一言
+
+Day2: 
+    tts：https://github.com/GavinXi/openai-quickstart/blob/main/openai_api/tts.ipynb
+    whisper:https://github.com/GavinXi/openai-quickstart/blob/main/openai_api/whisper.ipynb
+    ai translator 1.0: https://github.com/GavinXi/openai-quickstart/tree/main/openai-translator/ai_translator
+    GPT-4V: https://github.com/GavinXi/openai-quickstart/blob/main/openai_api/gpt-4v.ipynb
+    langchain chains: https://github.com/GavinXi/openai-quickstart/blob/main/langchain/jupyter/chains/router_chain.ipynb
+    ai translator 2.0: https://github.com/GavinXi/openai-quickstart/tree/main/langchain/openai-translator
+
+Day3:
+    https://github.com/GavinXi/openai-quickstart/tree/main/langchain/insurance_sales_chatbot
